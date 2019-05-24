@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import sys, os, stat, commands
+import sys, os, stat
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Build import cythonize

@@ -5,13 +5,7 @@ import sys, os, stat, commands
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Build import cythonize
-
-try:
-    from Cython.Distutils import build_ext
-except:
-    print "You don't seem to have Cython installed. Please get a"
-    print "copy from www.cython.org and install it"
-    sys.exit(1)
+from Cython.Distutils import build_ext
 
 
 # scan the directory for extension files, converting
